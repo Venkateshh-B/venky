@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(rgb(57, 202, 171), #396e70);
+   */
+  background-color: black;
+}
+/*
+
+.user {
+  width: 330px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff00;
+}
+
+input {
+  width: 180px;
+  height: 35px;
+  color: rgb(12, 21, 34);
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  padding-left: 16px;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(16, 70, 65);
+  color: rgb(141, 179, 184);
+  border-radius: 10%;
+  border: none;
+  margin-left: 40%;
+  margin-top: 17px;
+}
+button:hover {
+  background-color: rgba(20, 54, 54, 0.61);
+  transition: 0.6s;
+}
+h1 {
+  text-align: center;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+}
+div{
+
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+/* .box {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row1 div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(67, 255, 255);
+  color: antiquewhite;
+  position: relative;
+}
+
+.row2 div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(67, 255, 255);
+}
+.row3 div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(67, 255, 255);
+} */
+
+.box {
+  display: block;
+  position: relative;
+}
+.box div{
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+.box section{
+  position: relative;
+  float: left;
+}
